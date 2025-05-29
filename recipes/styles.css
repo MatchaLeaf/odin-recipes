@@ -1,25 +1,31 @@
-h1{ 
-    background-color: aliceblue;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
+
 ul{
     background-color:beige;
-    border: 1px solid red;
+    padding: 30px;
+    
 }
+
 .nav-list{
     display: flex; 
-    /* margin: 0px; */
-    /* padding: 0px; */
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     list-style: none;
-    flex-direction: column;
-
-    
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .nav-list li{
-    border: 1px solid wheat;
-    flex: 1 1 auto;
-    height: 90px;
+    border: 1px solid red;
+    height: 40px;
+    align-content: center;
+}
+a{
+    text-decoration: none;
 }

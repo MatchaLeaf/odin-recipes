@@ -25,3 +25,21 @@ a{
     text-decoration: none;
     color: black;
 }
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -17,15 +17,15 @@ body{
 
 
 .nav-list{
-    display: inline-flex; 
+    display: flex; 
     flex-wrap: wrap;
     list-style: none;
     flex-direction: column;
-    align-content: flex-start;
-    gap: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aliceblue;
-    padding: 30px;
+    background-color: rgb(83, 255, 48);
+    width: 400px;
+    height: 300px;
+
 }
 .nav-list li{
     height: 30px;
@@ -42,19 +42,26 @@ a{
 
 .mainCont{
     display: flex;
-    background-color: blue;
-    width: 700px;
+    background-color: rgb(253, 253, 253);
+    width: auto;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
+
 .card{
     display: flex;
     background-color: blue;
-    align-items: center;
+    flex-direction: column;
+    height: 700px;
 }
 .content{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.right-link{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    padding: 100px;
 }
